@@ -1,0 +1,13 @@
+<div class="card cuadro">
+    <img [src]="cliente.imagen" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">{{cliente.nombre}} {{cliente.apellidos}} ({{cliente.edad}})</h5>
+        <hr>
+        <div class="cuadrado">
+        <h6 class="card-text"> 🎂{{cliente.fecha_nacimiento| date: 'd/M/y'}}</h6>
+        <a class="card-link" href="mailto:{{cliente.email}}">✉{{cliente.email}}</a>
+        <p class="card-text"><small class="text-muted"> 💶Cuota mensual {{cliente.cuota}}€</small></p>
+        <boton texto="Listo"></boton>
+    </div>
+    </div>
+</div>

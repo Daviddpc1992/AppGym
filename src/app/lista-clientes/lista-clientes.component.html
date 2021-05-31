@@ -1,0 +1,20 @@
+
+<div class="botones">   
+  <boton texto="⬅ Prev" (click)="changePage(false)"> </boton>
+  <span>Pag {{currentPage}}</span>
+  <boton texto="Next ➡" (click)="changePage(true)"> </boton>
+  
+
+</div>
+<div class="add">
+<a href="#formulario">Añadir un nuevo cliente ➕</a>
+
+
+</div>
+<div class="row">
+
+    <div class="col-12 col-md-4 col-lg-3" *ngFor="let cliente of arrClientes" >
+      <app-card-cliente [cliente]="cliente"></app-card-cliente>
+    </div>
+</div>
+<formulario id="formulario"></formulario>

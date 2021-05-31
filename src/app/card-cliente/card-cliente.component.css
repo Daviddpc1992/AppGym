@@ -1,0 +1,30 @@
+img{
+    box-sizing: content-box;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 5px auto;
+    
+}
+.card{
+    margin: 10px 0px;
+    overflow: hidden;
+    border: none;
+    transition: transform .2s;
+    
+}
+.card:hover{
+    border: 1px solid gainsboro;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 2px gainsboro;
+}
+h5{
+    font-size: 1.1em;
+}
+a,h6{
+    font-size: .8em;
+}
+.cuadrado{
+    text-align: center;
+}

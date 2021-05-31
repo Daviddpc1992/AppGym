@@ -1,15 +1,25 @@
-header{
+.botones{
 display: flex;
     margin: auto!important;
     align-items: center;
     justify-content: center;
 }
-header button{
+.botones button{
    padding: 3%;
     background-color: #fff;
     border: none;
     font-size: 1.2em;
 }
-header button:hover{
+.botones button:hover{
     border-bottom: 1px solid #055ba8;
+}
+
+.botones span{
+text-align: center;
+    width: 10%;
+}
+.add{
+    padding: 3%;
+    text-align: center;
+    color: #055ba8
 }

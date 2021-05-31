@@ -7,18 +7,23 @@ import { AppComponent } from './app.component';
 import { CardClienteComponent } from './card-cliente/card-cliente.component';
 import { ListaCLientesComponent } from './lista-clientes/lista-clientes.component';
 import { CustomButtonComponent } from './custom-button/custom-button.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardClienteComponent,
     ListaCLientesComponent,
-    CustomButtonComponent
+    CustomButtonComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

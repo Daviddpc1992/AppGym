@@ -1,0 +1,23 @@
+h2{
+
+    text-align: center;
+    padding: 3%;
+}
+
+form{
+
+width: 80%;
+margin: auto;
+}
+.doble{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .boton{
+    margin-left: 46%;
+
+    padding: 2%;
+
+}

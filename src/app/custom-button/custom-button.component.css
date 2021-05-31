@@ -1,0 +1,11 @@
+button{
+    color: #055BA8;
+    border: 1px solid #055BA8;
+    transition: all ease .5s;
+}
+button:hover{
+background-color: #055BA8;
+color: #fff;
+border: 1px solid #055BA8;
+
+}

@@ -1,0 +1,25 @@
+GET http://localhost:3000/api/clientes
+###
+
+GET http://localhost:3000/api/clientes/12
+###
+
+GET http://localhost:3000/api/clientes/mayor/50
+
+###
+POST http://localhost:3000/api/clientes
+Content-Type: application/json
+
+{
+    "nombre": "Juan",
+    "apellidos": "Perez",
+    "direccion": "Gran via 44",
+    "email": "pedro@gmail.com",
+    "edad": 23,
+    "sexo": "M",
+    "cuota": 39.90,
+    "fecha_nacimiento": "1982-7-11",
+    "dni": "922154321P"
+}
+###
+DELETE http://localhost:3000/api/clientes/1
